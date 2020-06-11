@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment{
-        my_tag = my_tag
+        my_tag = "my_tag"
     }
 
     stages{
